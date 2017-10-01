@@ -1,0 +1,58 @@
+<style type="text/css">
+  
+table {
+    border-collapse: collapse; /* make simple 1px lines borders if border defined */
+}
+tr {
+    width: 100%;
+}
+
+.outer-container {
+        background-color: #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+
+}
+.inner-container {
+    /*width: 100%;*/
+    height: 100%;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y:hidden;
+}
+.table-header {
+    float:left;
+    width: 100%;
+}
+.table-body {
+    float:left;
+    height: 100%;
+    width: inherit;
+    overflow-y: scroll;
+}
+.header-cell {
+    background-color: yellow;
+    text-align: left;
+    height: 40px;
+}
+.body-cell {
+    background-color: blue;
+    text-align: left;
+}
+.col1, .col3, .col4, .col5 {
+    width:120px;
+    min-width: 120px;
+}
+.col2 {
+    min-width: 300px;
+}
+</style>
+
+
+
+
+
